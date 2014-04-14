@@ -1,0 +1,82 @@
+body{
+display:block;
+padding:0;
+margin:0;
+height:2000px;
+}
+
+h1, .logo, .container{
+margin:0;
+padding:0;
+position:fixed;
+z-index:2;
+width:100%;
+font-family:verdana;
+}
+
+h2{
+top:40%;
+color:black;
+font-size: 40px;
+}
+
+.container{
+opacity:0;
+width:600px;
+left:50%;
+margin-left:-300px;
+overflow:hidden;
+height:100%;
+
+}
+
+.logo{
+display:block;
+text-indent:10000px;
+overflow:hidden;
+background: white url(jarallax.jpg) center center no-repeat;
+background-position-y:50%;
+height:100%;
+width:100%;
+}
+
+nav{
+background:white;
+border-bottom:2px solid black;
+position:fixed;
+left:0;
+top:0;
+z-index:10;
+width:100%;
+}
+
+nav ul{
+overflow:auto;
+list-style:none;
+margin:0;
+}
+
+nav li{
+float:left;
+}
+
+nav a{
+color:#253652;
+font-family:verdana;
+display:block;
+padding:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#253652;
+color:white;
+}
+
+a{
+color:#253652;
+font-family:verdana;
+text-decoration:none;
+font-weight:bold;
+}
