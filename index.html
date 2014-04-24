@@ -10,9 +10,10 @@
   <body onLoad='init()' ng-app="MyApp">
     <nav ng-controller="PostsCtrl">
       <ul>
-        <li ng-repeat="post in posts"><a href="#" ng-onClick="jarallax.jumpToProgress({{post.jarallax}}, 2000, 30);">{{post.menu}}</a></li>
+        <li ng-repeat="post in posts"><a href="#" ng-click="jarallax.jumpToProgress({{post.jarallax}}, 2000, 30);">{{post.menu}}</a></li>
       </ul>
     </nav>    
+<!--
 
     <nav>
           <ul>
@@ -23,9 +24,10 @@
             <li><a href="#" onClick="jarallax.jumpToProgress( 40, 2000, 30);">Clone animations</a></li>
           </ul>
         </nav>-->
+
     
 <div>
-<div ng-controller="PostsCtrl">
+<div  ng-controller="PostsCtrl">
     <ul ng-repeat="post in posts">
       <li>{{post.description}}</li>
     </ul>
