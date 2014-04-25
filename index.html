@@ -10,29 +10,16 @@
   <body onLoad='init()' ng-app="MyApp">
     <nav ng-controller="PostsCtrl">
       <ul>
-        <li ng-repeat="post in posts"><a href="#" ng-click="jarallax.jumpToProgress({{post.jarallax}}, 2000, 30);">{{post.menu}}</a></li>
-      </ul>
-    </nav>    
-<!--
-
     <nav>
           <ul>
-            <li><a href="#" onClick="jarallax.jumpToProgress( 0, 2000, 30);">Intro</a></li>
-            <li><a href="#" onClick="jarallax.jumpToProgress( 10, 2000, 30);">New features</a></li>
-            <li><a href="#" onClick="jarallax.jumpToProgress( 20, 2000, 30);">Jump to progress</a></li>
-            <li><a href="#" onClick="jarallax.jumpToProgress( 30, 2000, 30);">Smooth scrollbar</a></li>
-            <li><a href="#" onClick="jarallax.jumpToProgress( 40, 2000, 30);">Clone animations</a></li>
+            <li><a href="#" onClick="jarallax.jumpToProgress( 0, 2000, 30);">Home</a></li>
+            <li><a href="#" onClick="jarallax.jumpToProgress( 10, 2000, 30);">About</a></li>
+            <li><a href="#" onClick="jarallax.jumpToProgress( 20, 2000, 30);">ArtWork</a></li>
+            <li><a href="#" onClick="jarallax.jumpToProgress( 30, 2000, 30);">Exhibition</a></li>
+            <li><a href="#" onClick="jarallax.jumpToProgress( 40, 2000, 30);">Contact</a></li>
           </ul>
-        </nav>-->
-
-    
-<div>
-<div  ng-controller="PostsCtrl">
-    <ul ng-repeat="post in posts">
-      <li>{{post.description}}</li>
-    </ul>
-  </div>
-</div>
+        </nav>
+  
   
   <!--Post End-->
     <div class="container" id="slide1">
