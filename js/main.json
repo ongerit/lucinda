@@ -1,0 +1,64 @@
+[
+{ 
+"menu":"Home",
+"title":"Multiple Ajax Image Upload without Refreshing Page using Jquery.", 
+"url":"http://www.9lessons.info/2013/08/multiple-ajax-image-upload-refreshing.html",
+"banner":"multiple.jpg",
+"description":"Some Text",
+"time":"Tuesday, August 6, 2013" ,
+"author":"Srinivas Tamada",
+"jarallax": 0
+}, 
+{
+"menu":"About",  
+"title":"Wall Script 6.0", 
+"url":"http://www.9lessons.info/2013/07/wall-script.html",
+"banner":"WallBanner.jpg",
+"description":"Some Text",
+"time":"MONDAY, JULY 29, 2013" ,
+"author":"Srinivas Tamada",
+"jarallax": 10
+
+}, 
+{
+"menu":"Artwork",   
+"title":"Simple Drop Down Menu with Jquery and CSS", 
+"url":"http://www.9lessons.info/2012/06/simple-drop-down-menu-with-jquery-and.html",
+"banner":"dropdown.png",
+"description":"Some Text",
+"time":"WEDNESDAY, JUNE 20, 2012" ,
+"author":"Ravi Tamada",
+"jarallax": 20
+}, 
+{
+"menu":"Exhibition",   
+"title":"Simple Drop Down Menu with Jquery and CSS", 
+"url":"http://www.9lessons.info/2012/06/simple-drop-down-menu-with-jquery-and.html",
+"banner":"dropdown.png",
+"description":"Some Text",
+"time":"WEDNESDAY, JUNE 20, 2012" ,
+"author":"Ravi Tamada",
+"jarallax": 30
+}, 
+{
+"menu":"Press",   
+"title":"Simple Drop Down Menu with Jquery and CSS", 
+"url":"http://www.9lessons.info/2012/06/simple-drop-down-menu-with-jquery-and.html",
+"banner":"dropdown.png",
+"description":"Some Text",
+"time":"WEDNESDAY, JUNE 20, 2012" ,
+"author":"Ravi Tamada",
+"jarallax": 40
+
+}, 
+{
+"menu":"Contact",   
+"title":"Simple Drop Down Menu with Jquery and CSS", 
+"url":"http://www.9lessons.info/2012/06/simple-drop-down-menu-with-jquery-and.html",
+"banner":"dropdown.png",
+"description":"Some Text",
+"time":"WEDNESDAY, JUNE 20, 2012" ,
+"author":"Ravi Tamada",
+"jarallax": 50
+}
+]
