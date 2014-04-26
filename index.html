@@ -42,13 +42,16 @@
     </div>
     <div class="container" id="slide2" name="Artwork">
       <h2>Artwork</h2>
-       <img src="#blank" class="grid" />   
-       <img src="#blank" class="grid" />  
-       <img src="#blank" class="grid" />  
-       <img src="#blank" class="grid" />  
-       <img src="#blank" class="grid" />  
-       <img src="#blank" class="grid" />  
-       <img src="#blank" class="grid" />  
+       <img class="portfolio" src="images/portfolio/1.jpg" class="grid" alt=" Write alt text"/>   
+       <img class="portfolio" src="images/portfolio/2.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/3.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/4.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/5.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/6.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/7.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/8.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/9.jpg" class="grid" alt=" Write alt text"/>  
+       <img class="portfolio" src="images/portfolio/10.jpg" class="grid" alt=" Write alt text"/>   
     </div>
     <div class="container" id="slide3" name="Exhibitions">
       <h2>Smooth scrollbar</h2>
@@ -71,29 +74,7 @@ var jarallax = new Jarallax(<b>new ControllerScroll(true)</b>);
     </div>
     <div class="container" id="slide4" name="Contact">
       <h2>Contact</h2>
-      <p>
-        In earlier versions of Jarallax every animation needs to be defined. 
-        With cloneAnimation existing animations can be cloned and slightly adjusted. 
-        With this feature many animations can be created and adjusted with less efford.
-      </p>
-<b>Example</b>
-<pre>
-var jarallax = new Jarallax();
-var animation = jarallax.addAnimation('#slide1',[{progress:'0', opacity:'0', top:'100%'},
-                                                 {progress:'10', opacity:'1', top:'40%'},
-                                                 {progress:'20', opacity:'0', top:'0%'}]);
-                        
-jarallax.<b>cloneAnimation</b>('#slide2',{progress:'+10'}, animation);
-jarallax.<b>cloneAnimation</b>('#slide3',{progress:'+20'}, animation);
-jarallax.<b>cloneAnimation</b>('#slide4',{progress:'+30'}, animation);
-</pre>
-<p>
-When defining an animation with the addAnimation method, an animation sequence is returned. 
-This sequence can be cloned and adjusted with the cloneAnimation method.
-</p>
-<p>
-The first argument expects a selector, the second an object or array with the key modifications. 
-The third argument is the original animation sequence which you want to clone.
+  
 </p>
     </div>
   </body>
