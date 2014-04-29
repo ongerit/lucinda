@@ -1,86 +1,70 @@
-body{
-display:block;
-padding:0;
-margin:0;
-height:2000px;
+body {
+    display: block;
+    height: 2000px;
+    margin: 0;
+    padding: 0;
 }
-
-h1, .logo, .container{
-margin:0;
-padding:0;
-position:fixed;
-z-index:2;
-width:100%;
-font-family:verdana;
+h1, .logo, .container {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
-
-h2{
-top:40%;
-color:black;
-font-size: 40px;
+h2 {
+    color: #000000;
+    font-size: 40px;
+    top: 40%;
 }
-
-.container{
-opacity:0;
-width:600px;
-left:50%;
-margin-left:-300px;
-overflow:hidden;
-height:100%;
-
+.container {
+    height: 100%;
+    left: 50%;
+    margin-left: -300px;
+    opacity: 0;
+    overflow: hidden;
+    width: 600px;
 }
-
-.logo{
-display:block;
-text-indent:10000px;
-overflow:hidden;
-background: white url(../images/lucinda_logo.png) center center no-repeat;
-background-position-y:50%;
-height:100%;
-width:100%;
+.logo {
+    background: url("../images/lucinda_logo.png") no-repeat scroll center center #FFFFFF;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-indent: 10000px;
+    width: 100%;
 }
-
-nav{
-background:white;
-border-bottom:2px solid black;
-position:fixed;
-left:0;
-top:0;
-z-index:10;
-width:100%;
+nav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    left: 0;
+    position: fixed;
+    top: 200px;
+    z-index: 10;
 }
-
-nav ul{
-overflow:auto;
-list-style:none;
-margin:0;
+nav ul {
+    list-style: none outside none;
+    margin: 0;
+    overflow: auto;
 }
-
-nav li{
-float:left;
+nav li {
 }
-
-nav a{
-color:#253652;
-font-family:verdana;
-display:block;
-padding:20px;
-text-decoration:none;
-font-weight:bold;
+nav a {
+    color: #253652;
+    display: block;
+    font-family: verdana;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
 }
-
-nav a:hover{
-background:#253652;
-color:white;
+nav a:hover {
+    background: none repeat scroll 0 0 #253652;
+    color: #FFFFFF;
 }
-
-a{
-color:#253652;
-font-family:verdana;
-text-decoration:none;
-font-weight:bold;
+a {
+    color: #253652;
+    font-family: verdana;
+    font-weight: bold;
+    text-decoration: none;
 }
-
 .portfolio {
-  width: 100px;
+    width: 100px;
 }
