@@ -8,11 +8,11 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="jarallax-0.2.2.js"></script>
   </head>
-  <body onLoad='init()' ng-app="MyApp">
+  <body class="background-image-overlay" onLoad='init()' ng-app="MyApp">
     <nav ng-controller="PostsCtrl">
       <ul>
     <nav>
-          <ul>
+          <ul id="left-sidebar">
             <li><a href="#" onClick="jarallax.jumpToProgress( 0, 2000, 30);">Home</a></li>
             <li><a href="#" onClick="jarallax.jumpToProgress( 10, 2000, 30);">About</a></li>
             <li><a href="#" onClick="jarallax.jumpToProgress( 20, 2000, 30);">Artwork</a></li>
@@ -22,8 +22,6 @@
         </nav>
 <div class="main-page">
   <h1 class="logo" style="opacity: 0.99;">
-
-    Lucinda Mason
 
   </h1>
 
