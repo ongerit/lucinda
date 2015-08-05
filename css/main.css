@@ -1,20 +1,25 @@
-html { 
-  background: url(../images/bg/bg1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html {
+    background: url(../images/bg/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 body {
     display: block;
     height: 2000px;
     margin: 0;
     padding: 0;
 }
-p{
-  color: #fff;
+
+p {
+    color: #fff;
 }
-h1, .logo, .container {
+
+h1,
+.logo,
+.container {
     font-family: verdana;
     margin: 0;
     padding: 0;
@@ -22,11 +27,13 @@ h1, .logo, .container {
     width: 100%;
     z-index: 2;
 }
+
 h2 {
     color: #fff;
     font-size: 40px;
     top: 40%;
 }
+
 .container {
     height: 100%;
     left: 50%;
@@ -35,6 +42,7 @@ h2 {
     overflow: hidden;
     width: 600px;
 }
+
 .logo {
     background: url("../images/logo.png") no-repeat scroll center center transparent;
     display: block;
@@ -43,6 +51,7 @@ h2 {
     text-indent: 10000px;
     width: 100%;
 }
+
 nav {
     background: transparent;
     left: 0;
@@ -50,14 +59,15 @@ nav {
     top: 200px;
     z-index: 10;
 }
+
 nav ul {
     list-style: none outside none;
     margin: 0;
     overflow: auto;
 }
-nav li {
-  
-}
+
+nav li {}
+
 nav a {
     color: #fff;
     display: block;
@@ -66,15 +76,18 @@ nav a {
     padding: 20px;
     text-decoration: none;
 }
+
 nav a:hover {
     color: #333;
 }
+
 a {
     color: #253652;
     font-family: verdana;
     font-weight: bold;
     text-decoration: none;
 }
+
 .portfolio {
     width: 100px;
 }
@@ -87,15 +100,14 @@ a {
     width: 13%;
     max-width: 150px;
     min-width: 150px;
-    background: -moz-linear-gradient(top, rgba(0,0,0,0.29) 0%, rgba(0,0,0,0) 78%, rgba(0,0,0,0) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.29)), color-stop(78%,rgba(0, 0, 0, 0)), color-stop(100%,rgba(0, 0, 0, 0)));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.29) 0%,rgba(0, 0, 0, 0) 78%,rgba(0, 0, 0, 0) 100%);
-    background: -o-linear-gradient(top, rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
-    background: -ms-linear-gradient(top, rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.29) 0%,rgba(0, 0, 0, 0) 78%,rgba(0, 0, 0, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000',GradientType=0 );
-    z-index:999;
-    
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 0) 78%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.29)), color-stop(78%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 0) 78%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 0) 78%, rgba(0, 0, 0, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 0) 78%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 0) 78%, rgba(0, 0, 0, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000', GradientType=0);
+    z-index: 999;
 }
 
 .background-image-overlay {
@@ -107,5 +119,4 @@ a {
     height: 100%;
     z-index: -1;
     background: url(../images/background.png) repeat;
-    
-  }
+}
